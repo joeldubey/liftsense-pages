@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Support &amp; User's Guide — RepVault</title>
+  <link rel="icon" href="./images/icon.png" />
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+      background: #031014;
+      color: #f6fbfc;
+      line-height: 1.7;
+      padding: 40px 20px 80px;
+    }
+    .container { max-width: 720px; margin: 0 auto; }
+    h1 { font-size: 2rem; font-weight: 700; color: #15d8ce; margin-bottom: 4px; }
+    .subtitle { font-size: 0.85rem; color: #9eb0b6; margin-bottom: 32px; }
+    h2 { font-size: 1.1rem; font-weight: 600; color: #f6fbfc; margin-top: 36px; margin-bottom: 10px; border-bottom: 1px solid rgba(255,255,255,.09); padding-bottom: 6px; }
+    h3 { font-size: 0.95rem; font-weight: 600; color: #f6fbfc; margin-top: 18px; margin-bottom: 8px; }
+    p { margin-bottom: 14px; color: #d7e1e4; }
+    ul { margin: 10px 0 14px 20px; color: #d7e1e4; }
+    ul li { margin-bottom: 6px; }
+    a { color: #15d8ce; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-box {
+      background: #081a20;
+      border: 1px solid rgba(255,255,255,.09);
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 8px;
+    }
+    .contact-box p { margin-bottom: 8px; }
+    .contact-box p:last-child { margin-bottom: 0; }
+    .button {
+      display: inline-block;
+      background: #15d8ce;
+      color: #031014;
+      font-weight: 600;
+      text-decoration: none;
+      padding: 10px 18px;
+      border-radius: 8px;
+      margin-top: 6px;
+    }
+    .button:hover { text-decoration: none; opacity: 0.9; }
+    .tip {
+      background: rgba(21, 216, 206, 0.08);
+      border-left: 3px solid #15d8ce;
+      padding: 10px 14px;
+      margin: 10px 0 14px;
+      border-radius: 0 6px 6px 0;
+      color: #d7e1e4;
+      font-size: 0.95rem;
+    }
+    .section-summary { color: #9eb0b6; font-size: 0.9rem; margin-bottom: 12px; }
+    .footer-links { margin-top: 48px; font-size: 0.85rem; color: #9eb0b6; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Support</h1>
+    <p class="subtitle">RepVault &mdash; Workout Logging App</p>
+
+    <div class="contact-box">
+      <p><strong>Need help, found a bug, or have feedback?</strong></p>
+      <p>Email us and we'll get back to you as soon as we can. Please include your device type (iOS/Android) and a description of the issue.</p>
+      <a class="button" href="mailto:joeldubey@gmail.com?subject=RepVault%20Support">Email joeldubey@gmail.com</a>
+    </div>
+
+    <h2 id="faq">Common Questions</h2>
+    <p><strong>Do I need an account?</strong> No. RepVault has no sign-in of any kind &mdash; everything is stored locally on your device.</p>
+    <p><strong>Will my data sync to a new phone?</strong> Not yet. RepVault is local-only, so a device backup is your only current safety net. See the <a href="./faq.html">FAQ</a> for details.</p>
+    <p><strong>Where's the privacy policy?</strong> See our <a href="./privacy-policy.html">Privacy Policy</a>.</p>
+
+    <h1 style="margin-top: 56px;">User's Guide</h1>
+    <p class="subtitle">How RepVault fits together</p>
+
+    <h2>Getting Started</h2>
+    <p class="section-summary">What RepVault is and how the app is organized</p>
+    <p>RepVault is a strength-training workout logger. You organize your training by location and workout, log sets against a 550+ exercise catalog, and review your history and progress over time.</p>
+    <h3>The four tabs</h3>
+    <ul>
+      <li>Locations &mdash; your home screen. The gyms and places you train, each with its own workouts.</li>
+      <li>History &mdash; every set you've logged, grouped by week, with trend arrows against your last session of each exercise.</li>
+      <li>Progress &mdash; charts and stats: frequency, volume, strength trends, and personal records.</li>
+      <li>Profile &mdash; theme, the Exercise Library, and this guide.</li>
+    </ul>
+    <div class="tip">New here? Add a location, add a workout inside it, then add exercises to that workout to start logging sets.</div>
+
+    <h2>Locations &amp; Workouts</h2>
+    <p class="section-summary">Organizing where and what you train</p>
+    <p>Locations are the gyms, home setups, or hotels you train at. Each location holds its own list of workouts &mdash; user-named routines like "Push Day" or "Leg Day."</p>
+    <h3>Managing locations</h3>
+    <ul>
+      <li>Tap <strong>+</strong> to add a location, or restore one you've archived.</li>
+      <li>Long-press a location to archive it (hides it from your home screen without losing its history) or, for a location you created yourself, delete it entirely.</li>
+      <li>Deleting a custom location lets you choose whether to keep the sets you logged there or erase them along with it.</li>
+    </ul>
+    <p>Inside a location, add workouts the same way &mdash; drag to reorder, long-press to rename or delete.</p>
+
+    <h2>Exercises</h2>
+    <p class="section-summary">Building a workout's exercise list</p>
+    <p>Open a workout to see its exercises, toggled between <strong>My Order</strong> (the order you'll do them in) and <strong>By Body Part</strong>.</p>
+    <h3>Adding exercises</h3>
+    <ul>
+      <li>Tap <strong>+</strong> to search the exercise catalog by name (fuzzy search handles typos) or browse by body part.</li>
+      <li>Select multiple exercises at once to add them all to the workout.</li>
+      <li>Don't see what you need? Create a custom exercise right from the same screen, and tag it with the body parts it trains.</li>
+    </ul>
+
+    <h2>Logging a Workout</h2>
+    <p class="section-summary">Entering sets and using the rest timers</p>
+    <p>Tap an exercise to open its entry screen. Enter weight and reps for each set &mdash; RepVault shows your previous session's numbers alongside so you can beat them.</p>
+    <h3>Rest timers</h3>
+    <p>Four built-in rest timers start automatically after you log a set, so you always know when to go again.</p>
+    <div class="tip">Every set you log saves immediately &mdash; there's no separate "save" step, and no risk of losing a session to a crash.</div>
+
+    <h2>History</h2>
+    <p class="section-summary">Reviewing what you've logged</p>
+    <p>The History tab merges every session for an exercise across every workout it's been logged in, grouped by week, with a lifetime summary of total workouts, time, volume, and your current week streak.</p>
+    <h3>Editing a past workout</h3>
+    <p>Tap the pencil icon on a closed workout's card to change its date, time, location, or name after the fact. The sets themselves stay untouched.</p>
+
+    <h2>Progress</h2>
+    <p class="section-summary">Charts, trends, and personal records</p>
+    <p>The Progress tab breaks down your training over a chosen time period (this year, 3 months, 6 months, or all time) across four views:</p>
+    <ul>
+      <li>Overview &mdash; workout and time stats, a frequency chart, cumulative volume, your top strength gains, a personal-record rail, and a muscle-group breakdown.</li>
+      <li>Strength &mdash; pick any exercise to see its best-set trend and full PR history.</li>
+      <li>Workouts &mdash; training frequency, session duration, and how your routines break down.</li>
+      <li>Body Comp &mdash; coming soon.</li>
+    </ul>
+
+    <h2>Profile &amp; Settings</h2>
+    <p class="section-summary">Theme and the exercise catalog</p>
+    <p>Open Profile from the bottom tab bar.</p>
+    <h3>Appearance</h3>
+    <p>Choose Light, Dark, or Auto theme.</p>
+    <h3>Exercise Library</h3>
+    <p>The full exercise catalog lives here &mdash; rename, retag, add a photo to, or delete any exercise, including the built-in ones. Nothing is locked.</p>
+
+    <h2>Your Data</h2>
+    <p class="section-summary">Local-only storage &mdash; no accounts, no cloud</p>
+    <p>RepVault has no accounts and no server &mdash; everything you log is stored only on your device. That means it's completely private, but it also means there's currently no cloud backup: uninstalling the App or switching phones without a device-level backup will permanently erase your data. See our <a href="./privacy-policy.html">Privacy Policy</a> for full details.</p>
+
+    <p class="footer-links">RepVault &middot; <a href="mailto:joeldubey@gmail.com?subject=RepVault%20Support">Get Support</a> &middot; <a href="./faq.html">FAQ</a> &middot; <a href="./privacy-policy.html">Privacy Policy</a> &middot; <a href="./terms-of-service.html">Terms</a></p>
+  </div>
+</body>
+</html>
