@@ -70,7 +70,8 @@
 
     <h2 id="faq">Common Questions</h2>
     <p><strong>Do I need an account?</strong> No. RepVault has no sign-in of any kind &mdash; everything is stored locally on your device.</p>
-    <p><strong>Will my data sync to a new phone?</strong> Not yet. RepVault is local-only, so a device backup is your only current safety net. See the <a href="./faq.html">FAQ</a> for details.</p>
+    <p><strong>Will my data sync to a new phone?</strong> Not yet. RepVault is local-only, so a backup file is your only current safety net &mdash; and the App can remind you to make one. See the <a href="./faq.html">FAQ</a> for details.</p>
+    <p><strong>I'm switching from another app &mdash; can I bring my history?</strong> Yes. <strong>Profile &rarr; Bring Your History Over</strong> imports from Strong, Hevy, FitNotes, or any app that exports a CSV.</p>
     <p><strong>Where's the privacy policy?</strong> See our <a href="./privacy-policy.html">Privacy Policy</a>.</p>
 
     <h1 style="margin-top: 56px;">User's Guide</h1>
@@ -126,7 +127,7 @@
     <p class="section-summary">Charts, trends, and personal records</p>
     <p>The Progress tab breaks down your training over a chosen time period &mdash; today, the last 7 or 30 days, 3 or 6 months, this year, all time, or any two dates you pick &mdash; across four views:</p>
     <ul>
-      <li>Overview &mdash; workout and time stats, a frequency chart, cumulative weight moved, your top strength gains, a personal-record rail, then any single exercise's best-set trend and PR history, your average workout length, and a breakdown of which routines you actually did.</li>
+      <li>Overview &mdash; workout and time stats, a frequency chart, how much weight you moved each month, your top strength gains, a personal-record rail, then any single exercise's best-set trend and PR history, your average workout length, and a breakdown of which routines you actually did.</li>
       <li>Muscles &mdash; an anatomical figure shaded by how hard each area has been worked. Drag to turn it around, pinch to zoom, tap any muscle for its numbers. Underneath, a close-up of every muscle in turn with its share of the total.</li>
       <li>Recovery &mdash; an estimate of how ready each muscle is to be trained again, worked out from how much you did and how recently, rather than just counting days.</li>
       <li>Balance &mdash; whether you're training evenly. Each muscle is compared with its opposite, scored out of 100, with the biggest gaps called out and how many sets would close them.</li>
@@ -142,13 +143,23 @@
     <h3>Body weight</h3>
     <p>Pull-ups, dips and push-ups move your own body, so without this they count as no weight at all. Tell RepVault what you weigh and they start counting properly. It's a dated list rather than a single number, so a set from last year is valued at what you weighed then &mdash; <strong>add a new entry whenever your weight changes</strong>, or the App keeps crediting you with the last figure you gave it.</p>
     <h3>Backup &amp; Restore</h3>
-    <p>Back Up Data writes everything &mdash; locations, workouts, exercises, every logged set, your body-weight log, and all your photos &mdash; to a single file you can save to iCloud Drive, Google Drive, or anywhere else. Restore Data rebuilds it all on the same phone or a new one.</p>
+    <p>Back Up Data writes everything &mdash; locations, workouts, exercises, every logged set, your body-weight log, and all your photos &mdash; to a single file you can save to iCloud Drive, Google Drive, or anywhere else. Restore Data rebuilds it all on the same phone or a new one. Underneath the button you'll see when you last backed up.</p>
+    <h3>Backup reminders</h3>
+    <p><strong>Remind Me To Back Up</strong> nudges you weekly, fortnightly or monthly. The reminder comes from your own phone &mdash; RepVault has no account and no server, so nothing about you is sent anywhere &mdash; and it only speaks up when you've logged sets that aren't in a backup yet. A month away from the gym is a month of silence. Your phone asks permission the first time you pick an interval.</p>
+    <h3>Coming from another app</h3>
+    <p><strong>Bring Your History Over</strong> imports your training log from whatever you were using before. Pick the app you're leaving and RepVault tells you where that app keeps its export, then you choose the file it gives you.</p>
+    <ul>
+      <li><strong>Strong, Hevy and FitNotes</strong> are listed by name. Strong and FitNotes export from the phone; Hevy exports from its website rather than the app.</li>
+      <li><strong>Any other app works too</strong> &mdash; choose "Any Other App" and pick its CSV. RepVault finds the columns by their headings rather than their order, so the file needs only a date, an exercise name, a weight and a rep count, one row per set.</li>
+      <li><strong>Importing adds to what you already have</strong> rather than replacing it, a backup is saved first so you can undo the whole thing, and importing the same file twice is safe &mdash; workouts already in RepVault are skipped rather than duplicated.</li>
+      <li><strong>Exercises are matched to RepVault's own catalog</strong> by name. Anything the importer isn't sure about is listed for you to confirm, with close matches to tap between.</li>
+    </ul>
     <h3>Exercise Library</h3>
     <p>The full exercise catalog lives here &mdash; rename, retag, add a photo to, or delete any exercise, including the built-in ones. Nothing is locked.</p>
 
     <h2>Your Data</h2>
     <p class="section-summary">Local-only storage &mdash; no accounts, no cloud</p>
-    <p>RepVault has no accounts and no server &mdash; everything you log is stored only on your device. That means it's completely private, but it also means nothing is backed up automatically. Use <strong>Profile &rarr; Back Up Data</strong> to save everything to a file and keep a copy somewhere off the phone; without one, uninstalling the App or switching phones will permanently erase your workout history. See our <a href="./privacy-policy.html">Privacy Policy</a> for full details.</p>
+    <p>RepVault has no accounts and no server &mdash; everything you log is stored only on your device. That means it's completely private, but it also means nothing is backed up automatically. Use <strong>Profile &rarr; Back Up Data</strong> to save everything to a file and keep a copy somewhere off the phone; without one, uninstalling the App or switching phones will permanently erase your workout history. Turn on <strong>Remind Me To Back Up</strong> and RepVault will prompt you when there's something logged that isn't in a backup yet. See our <a href="./privacy-policy.html">Privacy Policy</a> for full details.</p>
 
     <p class="footer-links">RepVault &middot; <a href="mailto:joeldubey@gmail.com?subject=RepVault%20Support">Get Support</a> &middot; <a href="./faq.html">FAQ</a> &middot; <a href="./privacy-policy.html">Privacy Policy</a> &middot; <a href="./terms-of-service.html">Terms</a></p>
   </div>
